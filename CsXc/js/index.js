@@ -30,9 +30,9 @@ $(function () {
         }
     }
     aud.addEventListener("play", function (e) {
-        img.src="../image/arrow.png";
+        img.src="../image/Note.jpg";
     }, false);
     aud.addEventListener("pause", function (e) {
-        img.src="../image/002.png";
+        img.src="../image/NoteNo.jpg";
     }, false);
 })
