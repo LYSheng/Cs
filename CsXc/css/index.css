@@ -156,14 +156,14 @@ body {
         opacity: 0;
         transform: translate(0,10px);
     }
-60% {
+    60% {
     opacity: 1;
     transform: translate(0,0);
-}
-100% {
-    opacity: 0;
-    transform: translate(0,-8px);
-}
+    }
+    100% {
+        opacity: 0;
+        transform: translate(0,-8px);
+    }
 }
 .music{
     display: block;
@@ -192,11 +192,11 @@ body {
     opacity: 0;
 }
 #playpause{
-    width: 50%;
-    height: 50%;
+    width: 80%;
+    height: 80%;
     position: absolute;
-    top: 0.15rem;
-    left: 0.1rem;
+    top: 0.1rem;
+    left: 0rem;
     z-index: 999999;
 }
 
